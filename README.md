@@ -23,4 +23,4 @@ Note: For an in-depth technical analysis, refer to the project [Documentation](.
 ## Latency results:
 - simpleParser.cpp: Average latency per message ~ 616.16 nanoseconds/message.
 - fastParser.cpp: Average latency per message ~ 35.25 nanoseconds/message.
-Decrease in latency is about 94.28%.
+- Decrease in latency is about 94.28%.
