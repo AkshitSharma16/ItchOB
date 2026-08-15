@@ -4,7 +4,7 @@ This software is designed to parse binary NASDAQ 5.0 ITCH data, construct the Li
 1.	The Producer Thread (Main thread): Memory-maps the file and parses the messages, then pushes event structs into a lock free (SPSC Ring Buffer) queue according to the message type.
 2.	The Consumer Thread (orderBookConsumerThread): Does most of the heavy lifting, which includes maintaining active order states and sorted price levels, computing best bid/ask prices and writing them to the csv file.
 
-Note: For an in-depth technical analysis, refer to the project [Documentation](./Documentation_NASDAQ_ITCH_Parser.pdf).
+Note: For an in-depth technical analysis, refer to the project [Documentation](./docs/Documentation_ItchOB.pdf).
 
 ## Preliminary Files:
 - randomGenerator.cpp: Generates 10000 sample order Add messages in the binary file (mock_market_data.bin) for small scale testing.
