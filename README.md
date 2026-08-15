@@ -17,6 +17,7 @@ Note: For an in-depth technical analysis, refer to the project [Documentation](.
 
 ## Build and Run:
 - Ensure you have a modern C++ compiler supporting C++17 installed in a Linux/Unix environment, and the ITCH data file is in the same project directory.
+- To get the Official NASDAQ ITCH 5.0 Data go to https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/ and download the file 12302019.NASDAQ_ITCH50.gz.
 - Compilation: g++ -O2 -std=c++17 -pthread parserandOB.cpp -o parserandOB
 - Running: ./parserandOB
 
